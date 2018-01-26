@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Movies.xsl"?>
+<Movies>
+	<Movie rating="PG">
+		<Title runtime="94">Inside Out</Title>
+		<Genre>Animation</Genre>
+		<Director>
+			<Name high-rated-movie="Toy Story 2">
+				<First>Pete</First>
+				<Last>Docter</Last>
+			</Name>
+		</Director>
+		<Director>
+			<Name>
+				<First>Ronnie</First>
+				<Last>del Carmen</Last>
+			</Name>
+		</Director>
+
+		<Studio>Disney</Studio>
+		<Year>2015</Year>
+	</Movie>
+
+	<Movie rating="R">
+		<Title runtime="154">Pulp Fiction</Title>
+		<Genre>Crime</Genre>
+		<Director>
+			<Name>
+				<First>Quentin</First>
+				<Last>Tarantino</Last>
+			</Name>
+		</Director>
+		<Studio>Miramax</Studio>
+		<Year>1994</Year>
+	</Movie>
+
+	<Movie rating="PG-13">
+		<Title>The Dark Knight</Title>
+		<Genre>Action</Genre>
+		<Director>
+			<Name high-rated-movie="Inception">
+				<First>Christopher</First>
+				<Last>Nolan</Last>
+			</Name>
+		</Director>
+		<Studio>Warner Bros.</Studio>
+		<Year>2008</Year>
+	</Movie>
+
+	<Movie rating="PG-13">
+		<Title runtime="142">Forrest Gump</Title>
+		<Genre>Drama</Genre>
+		<Director>
+			<Name>
+				<First>Robert</First>
+				<Last>Zemeckis</Last>
+			</Name>
+		</Director>
+		<Studio>Paramount Pictures</Studio>
+		<Year>1994</Year>
+	</Movie>
+
+	<Movie rating="R">
+		<Title>The Matrix</Title>
+		<Genre>Sci-Fi</Genre>
+		<Director>
+			<Name high-rated-movie="V for Vendetta">
+				<First>Lana</First>
+				<Last>Wachowski</Last>
+			</Name>
+		</Director>
+		<Director>
+			<Name>
+				<First>Lilly</First>
+				<Last>Wachowski</Last>
+			</Name>
+		</Director>		
+		<Studio>Warner Bros</Studio>
+		<Year>1999</Year>
+	</Movie>
+
+	<Movie rating="PG-13">
+		<Title runtime="114">Life Is Beautiful</Title>
+		<Genre>Comedy</Genre>
+		<Director>
+			<Name>
+				<First>Roberto</First>
+				<Last>Benigni</Last>
+			</Name>
+		</Director>
+		<Studio>Melampo</Studio>
+		<Year>1997</Year>
+	</Movie>
+
+	<Movie rating="PG-13">
+		<Title>Interstellar</Title>
+		<Genre>Adventure</Genre>
+		<Director>
+			<Name high-rated-movie="Inception">
+				<First>Christopher</First>
+				<Last>Nolan</Last>
+			</Name>
+		</Director>
+		<Studio>Paramount Pictures</Studio>
+		<Year>2014</Year>
+	</Movie>
+
+	<Movie rating="R">
+		<Title runtime="107">Whiplash</Title>
+		<Genre>Drama</Genre>
+		<Director>
+			<Name>
+				<First>Damien</First>
+				<Last>Chazelle</Last>
+			</Name>
+		</Director>
+		<Studio>Bold Films</Studio>
+		<Year>2014</Year>
+	</Movie>
+
+	<Movie rating="G">
+		<Title>Ratatouille</Title>
+		<Genre>Animation</Genre>
+		<Director>
+			<Name>
+				<First>Jan</First>
+				<Last>Pinkava</Last>
+			</Name>
+		</Director>
+		<Director>
+			<Name high-rated-movie="The Incredibles">
+				<First>Brad</First>
+				<Last>Bird</Last>
+			</Name>
+		</Director>
+		<Studio>Pixar</Studio>
+		<Year>2007</Year>
+	</Movie>
+
+	<Movie rating="PG">
+		<Title runtime="106">Your Name</Title>
+		<Genre>Animation</Genre>
+		<Director>
+			<Name>
+				<First>Makoto</First>
+				<Last>Shinkai</Last>
+			</Name>
+		</Director>
+		<Studio>Amuse</Studio>
+		<Year>2016</Year>
+	</Movie>
+
+	<Movie rating="G">
+		<Title runtime="98">WALL·E</Title>
+		<Genre>Animation</Genre>
+		<Director>
+			<Name>
+				<First>Andrew</First>
+				<Last>Stanton</Last>
+			</Name>
+		</Director>
+		<Studio>Disney</Studio>
+		<Year>2008</Year>
+	</Movie>
+
+	<Movie rating="PG">
+		<Title runtime="94">Inside Out</Title>
+		<Genre>Animation</Genre>
+		<Director>
+			<Name>
+				<First high-rated-movie="Toy Story 2">Pete</First>
+				<Last>Docter</Last>
+			</Name>
+		</Director>
+		<Director>
+			<Name>
+				<First>Ronnie</First>
+				<Last>del Carmen</Last>
+			</Name>
+		</Director>
+
+		<Studio>Disney</Studio>
+		<Year>2015</Year>
+	</Movie>
+</Movies>

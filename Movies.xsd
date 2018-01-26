@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xsd:element name="Movies">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Movie" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Title">
+                <xsd:complexType>
+                  <xsd:simpleContent>
+                    <xsd:extension base="xsd:string">
+                      <xsd:attribute type="xsd:int" name="runtime" use="optional"/>
+                    </xsd:extension>
+                  </xsd:simpleContent>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element type="xsd:string" name="Genre"/>
+              <xsd:element name="Director" maxOccurs="unbounded">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element name="Name">
+                      <xsd:complexType>
+                        <xsd:sequence>
+                          <xsd:element type="xsd:string" name="First"/>
+                          <xsd:element type="xsd:string" name="Last"/>
+                        </xsd:sequence>
+                        <xsd:attribute type="xsd:string" name="high-rated-movie" use="optional" form="qualified"/>
+                      </xsd:complexType>
+                    </xsd:element>
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+              <xsd:element type="xsd:string" name="Studio"/>
+              <xsd:element type="xsd:int" name="Year"/>
+            </xsd:sequence>
+            <xsd:attribute type="xsd:string" name="rating" use="required"/>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
